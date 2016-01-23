@@ -1,0 +1,10 @@
+<h1> Hello there! <%= title %></h1>
+
+<form action='/api/v1/todos' method='POST'>
+	<p>Text</p>
+	<input type='text' name='text'/>
+	<p>Status</p>
+	<input type='text' name='status'/>
+	<input type='hidden' name='completed' value='true'>
+	<button type='submit'>Submit</button>
+</form>
